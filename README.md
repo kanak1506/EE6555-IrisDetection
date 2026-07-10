@@ -2,7 +2,7 @@
 
 **End-to-end iris biometric pipeline: classical localization + deep learning classification**
 
-![Pipeline](docs/pipeline_banner.png)
+
 <!-- Replace with an actual banner/GIF showing the detection pipeline -->
 
 ![Python](https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white)
@@ -172,10 +172,10 @@ Demonstrates the full classical preprocessing pipeline step-by-step:
 | Loss (final epoch) | _TODO_ |
 
 <!-- Add confusion matrix image here -->
-![Confusion Matrix](docs/confusion_matrix.png)
+
 
 <!-- Add accuracy/loss curve here -->
-![Training Curves](docs/training_curves.png)
+
 
 ---
 
