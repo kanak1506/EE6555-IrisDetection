@@ -100,6 +100,8 @@ flowchart LR
 
 ## Preprocessing Pipeline
 
+<!-- TODO: preprocessing pipeline strip generated from Verify_iris.ipynb — raw eye crop -> Hough circle overlay -> Daugman rubber-sheet strip -> CLAHE-enhanced strip, side by side for one sample image -->
+
 ### Stage 1 — Eye Detection
 
 ```
@@ -243,7 +245,7 @@ The phase loss encourages the complex embeddings of the same identity to be cohe
 | 40 | 21.42 | 89.25% | 89.50% |
 | 50 | 21.23 | 89.31% | **89.69%** |
 
-> Add training curve plot here: `docs/training_curves.png`
+<!-- TODO: training curve plot (train loss + val accuracy vs. epoch) generated from Verify_iris.ipynb, saved to docs/training_curves.png -->
 
 ---
 
@@ -361,15 +363,9 @@ python src/eval.py
 
 ## Authors
 
-| Name | Contribution |
-|---|---|
-| Anirudh Sairam | — |
-| Anurag Thakur | — |
-| Aravind Sarath Chandran | — |
-| Kanak Potdar | [@kanak1506](https://github.com/kanak1506) |
-| Nikhil N | — |
+Anirudh Sairam, Anurag Thakur, Aravind Sarath Chandran, Kanak Potdar ([@kanak1506](https://github.com/kanak1506)), and Nikhil N.
 
-*IIT Kanpur — EE6555: Computer Vision and its Applications*
+*Group project — IIT Kanpur, EE6555: Computer Vision and its Applications*
 
 ---
 
