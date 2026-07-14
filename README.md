@@ -245,7 +245,7 @@ The phase loss encourages the complex embeddings of the same identity to be cohe
 | 40 | 21.42 | 89.25% | 89.50% |
 | 50 | 21.23 | 89.31% | **89.69%** |
 
-<!-- TODO: training curve plot (train loss + val accuracy vs. epoch) generated from Verify_iris.ipynb, saved to docs/training_curves.png -->
+![Training curves — loss and validation accuracy](docs/training_curves.png)
 
 ---
 
