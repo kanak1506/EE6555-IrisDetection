@@ -307,7 +307,11 @@ data/
 │   └── ...
 ```
 
-Update `BASE_PATH` in `Verify_iris.ipynb` to point to your data directory.
+Update `BASE_PATH` in `Verify_iris.ipynb` to point to your data directory. The notebook was developed on Kaggle, so it currently points at a Kaggle input path (`/kaggle/input/...`) — for a local run, replace it with a path like:
+
+```python
+BASE_PATH = "data"  # or an absolute path, e.g. "/home/you/datasets/CASIA-Iris-Thousand"
+```
 
 ---
 
